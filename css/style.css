@@ -1,0 +1,41 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ :root {
+  --nanoleaf-black: #2d2f30;
+  --nanoleaf-green: #3fae29;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--nanoleaf-black);
+  color: var(--text-color);
+}
+
+.nanoleaf-green-text {
+  color: var(--nanoleaf-green);
+}
+
+.nanoleaf-green {
+  background-color: var(--nanoleaf-green);
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.image-background {
+  background-image: url("/img/background.png");
+}
+
+.side-image {
+  width: 100%;
+}
